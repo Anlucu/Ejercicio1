@@ -1,0 +1,9 @@
+from datetime import datetime
+
+
+dt = datetime.now()
+
+if dt.hour < 7:
+    print("Falta para terminar el trabajo: ", dt.hour - 7)
+else:
+    print("Ya son mas de la 7")
