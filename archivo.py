@@ -18,3 +18,4 @@ del(f)
 
 f = open("clase", "rb")
 lista = pickle.load(f)
+f.close()
